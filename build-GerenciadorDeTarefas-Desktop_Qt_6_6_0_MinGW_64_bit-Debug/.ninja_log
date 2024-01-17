@@ -1,0 +1,43 @@
+# ninja log v5
+9	64	0	C:/Users/Jhinattan Rocha/Documents/GitHub/GerenciadorDeTarefas/build-GerenciadorDeTarefas-Desktop_Qt_6_6_0_MinGW_64_bit-Debug/CMakeFiles/cmake.verify_globs	73100050cba6f3b3
+13	2505	7272240663043836	GerenciadorDeTarefas_autogen/mocs_compilation.cpp	6561fa38c705b85a
+13	2505	7272240663043836	GerenciadorDeTarefas_autogen/timestamp	6561fa38c705b85a
+13	2505	7272240663043836	C:/Users/Jhinattan Rocha/Documents/GitHub/GerenciadorDeTarefas/build-GerenciadorDeTarefas-Desktop_Qt_6_6_0_MinGW_64_bit-Debug/GerenciadorDeTarefas_autogen/timestamp	6561fa38c705b85a
+13	2505	7272240663043836	C:/Users/Jhinattan Rocha/Documents/GitHub/GerenciadorDeTarefas/build-GerenciadorDeTarefas-Desktop_Qt_6_6_0_MinGW_64_bit-Debug/GerenciadorDeTarefas_autogen/mocs_compilation.cpp	6561fa38c705b85a
+2506	7543	7272240714514093	CMakeFiles/GerenciadorDeTarefas.dir/GerenciadorDeTarefas_autogen/mocs_compilation.cpp.obj	74d2063984f0ac4a
+2514	7505	7272240714125824	CMakeFiles/GerenciadorDeTarefas.dir/main.cpp.obj	9042175b424de47c
+2546	7984	7272240718854260	CMakeFiles/GerenciadorDeTarefas.dir/mainwindow.cpp.obj	ce2609d2be26b73d
+7985	8536	7272240724408730	GerenciadorDeTarefas.exe	cfa199d38a23ba2b
+2526	7676	7272240715852379	CMakeFiles/GerenciadorDeTarefas.dir/windowscore/mainwinos.cpp.obj	2ed39861f5a44a5d
+1050	4619	7270609193755926	CMakeFiles/GerenciadorDeTarefas.dir/windowscore/FileTree/FileTree.cpp.obj	d945ff6bfb22037f
+195	2608	7269802405542764	CMakeFiles/GerenciadorDeTarefas.dir/windowscore/pathmanager/pathmanager.cpp.obj	11c79b4499930386
+264	2724	7269801607943574	CMakeFiles/GerenciadorDeTarefas.dir/windowscore/MainWinOS.cpp.obj	588f49e8d03b7767
+44	594	7272247780762086	build.ninja	b10fc2a3ed222793
+2327	5599	7272206717702475	CMakeFiles/GerenciadorDeTarefas.dir/windowscore/PathManager/pathmanager.cpp.obj	3c1f80e80261d4ad
+2305	3047	7272234750587701	CMakeFiles/GerenciadorDeTarefas.dir/windowscore/StringTools/stringtools.cpp.obj	d1ac5005f525fe90
+272	1098	7272176340697424	CMakeFiles/GerenciadorDeTarefas.dir/windowscore/EnvVaribles/env_vars.cpp.obj	df85aa0320cf88e0
+5	50	0	C:/Users/Jhinattan Rocha/Documents/GitHub/GerenciadorDeTarefas/build-GerenciadorDeTarefas-Desktop_Qt_6_6_0_MinGW_64_bit-Debug/CMakeFiles/cmake.verify_globs	73100050cba6f3b3
+18	2410	7272253134259830	GerenciadorDeTarefas_autogen/timestamp	6561fa38c705b85a
+18	2410	7272253134259830	GerenciadorDeTarefas_autogen/mocs_compilation.cpp	6561fa38c705b85a
+18	2410	7272253134259830	C:/Users/Jhinattan Rocha/Documents/GitHub/GerenciadorDeTarefas/build-GerenciadorDeTarefas-Desktop_Qt_6_6_0_MinGW_64_bit-Debug/GerenciadorDeTarefas_autogen/timestamp	6561fa38c705b85a
+18	2410	7272253134259830	C:/Users/Jhinattan Rocha/Documents/GitHub/GerenciadorDeTarefas/build-GerenciadorDeTarefas-Desktop_Qt_6_6_0_MinGW_64_bit-Debug/GerenciadorDeTarefas_autogen/mocs_compilation.cpp	6561fa38c705b85a
+2461	3499	7272253146120972	CMakeFiles/GerenciadorDeTarefas.dir/windowscore/FileManager/filemanager.cpp.obj	cb24e751b80dd4bf
+2443	6370	7272253174821743	CMakeFiles/GerenciadorDeTarefas.dir/main.cpp.obj	9042175b424de47c
+2411	6431	7272253175423372	CMakeFiles/GerenciadorDeTarefas.dir/GerenciadorDeTarefas_autogen/mocs_compilation.cpp.obj	74d2063984f0ac4a
+2419	6738	7272253178495235	CMakeFiles/GerenciadorDeTarefas.dir/windowscore/mainwinos.cpp.obj	2ed39861f5a44a5d
+2428	6884	7272253179873651	CMakeFiles/GerenciadorDeTarefas.dir/mainwindow.cpp.obj	ce2609d2be26b73d
+6885	7425	7272253185322219	GerenciadorDeTarefas.exe	a554c165595cd490
+5	46	0	C:/Users/Jhinattan Rocha/Documents/GitHub/GerenciadorDeTarefas/build-GerenciadorDeTarefas-Desktop_Qt_6_6_0_MinGW_64_bit-Debug/CMakeFiles/cmake.verify_globs	73100050cba6f3b3
+11	180	7272256472062467	GerenciadorDeTarefas_autogen/timestamp	6561fa38c705b85a
+11	180	7272256472062467	GerenciadorDeTarefas_autogen/mocs_compilation.cpp	6561fa38c705b85a
+11	180	7272256472062467	C:/Users/Jhinattan Rocha/Documents/GitHub/GerenciadorDeTarefas/build-GerenciadorDeTarefas-Desktop_Qt_6_6_0_MinGW_64_bit-Debug/GerenciadorDeTarefas_autogen/timestamp	6561fa38c705b85a
+11	180	7272256472062467	C:/Users/Jhinattan Rocha/Documents/GitHub/GerenciadorDeTarefas/build-GerenciadorDeTarefas-Desktop_Qt_6_6_0_MinGW_64_bit-Debug/GerenciadorDeTarefas_autogen/mocs_compilation.cpp	6561fa38c705b85a
+202	3823	7272256508425475	CMakeFiles/GerenciadorDeTarefas.dir/mainwindow.cpp.obj	ce2609d2be26b73d
+8	76	0	C:/Users/Jhinattan Rocha/Documents/GitHub/GerenciadorDeTarefas/build-GerenciadorDeTarefas-Desktop_Qt_6_6_0_MinGW_64_bit-Debug/CMakeFiles/cmake.verify_globs	73100050cba6f3b3
+17	250	7272271152385830	GerenciadorDeTarefas_autogen/timestamp	6561fa38c705b85a
+17	250	7272271152385830	GerenciadorDeTarefas_autogen/mocs_compilation.cpp	6561fa38c705b85a
+17	250	7272271152385830	C:/Users/Jhinattan Rocha/Documents/GitHub/GerenciadorDeTarefas/build-GerenciadorDeTarefas-Desktop_Qt_6_6_0_MinGW_64_bit-Debug/GerenciadorDeTarefas_autogen/timestamp	6561fa38c705b85a
+17	250	7272271152385830	C:/Users/Jhinattan Rocha/Documents/GitHub/GerenciadorDeTarefas/build-GerenciadorDeTarefas-Desktop_Qt_6_6_0_MinGW_64_bit-Debug/GerenciadorDeTarefas_autogen/mocs_compilation.cpp	6561fa38c705b85a
+287	1404	7272271163904787	CMakeFiles/GerenciadorDeTarefas.dir/windowscore/FileManager/filemanager.cpp.obj	cb24e751b80dd4bf
+279	4848	7272271198331418	CMakeFiles/GerenciadorDeTarefas.dir/mainwindow.cpp.obj	ce2609d2be26b73d
+4849	5414	7272271203953947	GerenciadorDeTarefas.exe	a554c165595cd490
