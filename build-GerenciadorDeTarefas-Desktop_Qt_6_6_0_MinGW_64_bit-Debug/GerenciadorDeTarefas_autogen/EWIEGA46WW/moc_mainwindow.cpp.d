@@ -1,5 +1,10 @@
 C:/Users/Jhinattan\ Rocha/Documents/GitHub/GerenciadorDeTarefas/build-GerenciadorDeTarefas-Desktop_Qt_6_6_0_MinGW_64_bit-Debug/GerenciadorDeTarefas_autogen/EWIEGA46WW/moc_mainwindow.cpp: C:/Users/Jhinattan\ Rocha/Documents/GitHub/GerenciadorDeTarefas/GerenciadorDeTarefas/mainwindow.h \
   C:/Users/Jhinattan\ Rocha/Documents/GitHub/GerenciadorDeTarefas/build-GerenciadorDeTarefas-Desktop_Qt_6_6_0_MinGW_64_bit-Debug/GerenciadorDeTarefas_autogen/moc_predefs.h \
+  C:/Qt/6.6.0/mingw_64/include/QtCore/QFile \
+  C:/Qt/6.6.0/mingw_64/include/QtCore/QJsonArray \
+  C:/Qt/6.6.0/mingw_64/include/QtCore/QJsonDocument \
+  C:/Qt/6.6.0/mingw_64/include/QtCore/QJsonObject \
+  C:/Qt/6.6.0/mingw_64/include/QtCore/QJsonValue \
   C:/Qt/6.6.0/mingw_64/include/QtCore/q20functional.h \
   C:/Qt/6.6.0/mingw_64/include/QtCore/q20memory.h \
   C:/Qt/6.6.0/mingw_64/include/QtCore/q20type_traits.h \
@@ -18,6 +23,9 @@ C:/Users/Jhinattan\ Rocha/Documents/GitHub/GerenciadorDeTarefas/build-Gerenciado
   C:/Qt/6.6.0/mingw_64/include/QtCore/qbytearrayalgorithms.h \
   C:/Qt/6.6.0/mingw_64/include/QtCore/qbytearraylist.h \
   C:/Qt/6.6.0/mingw_64/include/QtCore/qbytearrayview.h \
+  C:/Qt/6.6.0/mingw_64/include/QtCore/qcalendar.h \
+  C:/Qt/6.6.0/mingw_64/include/QtCore/qcborcommon.h \
+  C:/Qt/6.6.0/mingw_64/include/QtCore/qcborvalue.h \
   C:/Qt/6.6.0/mingw_64/include/QtCore/qchar.h \
   C:/Qt/6.6.0/mingw_64/include/QtCore/qcompare.h \
   C:/Qt/6.6.0/mingw_64/include/QtCore/qcompare_impl.h \
@@ -30,8 +38,12 @@ C:/Users/Jhinattan\ Rocha/Documents/GitHub/GerenciadorDeTarefas/build-Gerenciado
   C:/Qt/6.6.0/mingw_64/include/QtCore/qcontiguouscache.h \
   C:/Qt/6.6.0/mingw_64/include/QtCore/qdarwinhelpers.h \
   C:/Qt/6.6.0/mingw_64/include/QtCore/qdatastream.h \
+  C:/Qt/6.6.0/mingw_64/include/QtCore/qdatetime.h \
   C:/Qt/6.6.0/mingw_64/include/QtCore/qdebug.h \
+  C:/Qt/6.6.0/mingw_64/include/QtCore/qendian.h \
   C:/Qt/6.6.0/mingw_64/include/QtCore/qexceptionhandling.h \
+  C:/Qt/6.6.0/mingw_64/include/QtCore/qfile.h \
+  C:/Qt/6.6.0/mingw_64/include/QtCore/qfiledevice.h \
   C:/Qt/6.6.0/mingw_64/include/QtCore/qflags.h \
   C:/Qt/6.6.0/mingw_64/include/QtCore/qfloat16.h \
   C:/Qt/6.6.0/mingw_64/include/QtCore/qforeach.h \
@@ -42,12 +54,18 @@ C:/Users/Jhinattan\ Rocha/Documents/GitHub/GerenciadorDeTarefas/build-Gerenciado
   C:/Qt/6.6.0/mingw_64/include/QtCore/qglobalstatic.h \
   C:/Qt/6.6.0/mingw_64/include/QtCore/qhash.h \
   C:/Qt/6.6.0/mingw_64/include/QtCore/qhashfunctions.h \
+  C:/Qt/6.6.0/mingw_64/include/QtCore/qiodevice.h \
   C:/Qt/6.6.0/mingw_64/include/QtCore/qiodevicebase.h \
   C:/Qt/6.6.0/mingw_64/include/QtCore/qiterable.h \
   C:/Qt/6.6.0/mingw_64/include/QtCore/qiterator.h \
+  C:/Qt/6.6.0/mingw_64/include/QtCore/qjsonarray.h \
+  C:/Qt/6.6.0/mingw_64/include/QtCore/qjsondocument.h \
+  C:/Qt/6.6.0/mingw_64/include/QtCore/qjsonobject.h \
+  C:/Qt/6.6.0/mingw_64/include/QtCore/qjsonvalue.h \
   C:/Qt/6.6.0/mingw_64/include/QtCore/qlatin1stringview.h \
   C:/Qt/6.6.0/mingw_64/include/QtCore/qline.h \
   C:/Qt/6.6.0/mingw_64/include/QtCore/qlist.h \
+  C:/Qt/6.6.0/mingw_64/include/QtCore/qlocale.h \
   C:/Qt/6.6.0/mingw_64/include/QtCore/qlogging.h \
   C:/Qt/6.6.0/mingw_64/include/QtCore/qmalloc.h \
   C:/Qt/6.6.0/mingw_64/include/QtCore/qmap.h \
@@ -68,6 +86,7 @@ C:/Users/Jhinattan\ Rocha/Documents/GitHub/GerenciadorDeTarefas/build-Gerenciado
   C:/Qt/6.6.0/mingw_64/include/QtCore/qprocessordetection.h \
   C:/Qt/6.6.0/mingw_64/include/QtCore/qrect.h \
   C:/Qt/6.6.0/mingw_64/include/QtCore/qrefcount.h \
+  C:/Qt/6.6.0/mingw_64/include/QtCore/qregularexpression.h \
   C:/Qt/6.6.0/mingw_64/include/QtCore/qscopedpointer.h \
   C:/Qt/6.6.0/mingw_64/include/QtCore/qscopeguard.h \
   C:/Qt/6.6.0/mingw_64/include/QtCore/qset.h \
@@ -108,7 +127,9 @@ C:/Users/Jhinattan\ Rocha/Documents/GitHub/GerenciadorDeTarefas/build-Gerenciado
   C:/Qt/6.6.0/mingw_64/include/QtCore/qtversionchecks.h \
   C:/Qt/6.6.0/mingw_64/include/QtCore/qtypeinfo.h \
   C:/Qt/6.6.0/mingw_64/include/QtCore/qtypes.h \
+  C:/Qt/6.6.0/mingw_64/include/QtCore/qurl.h \
   C:/Qt/6.6.0/mingw_64/include/QtCore/qutf8stringview.h \
+  C:/Qt/6.6.0/mingw_64/include/QtCore/quuid.h \
   C:/Qt/6.6.0/mingw_64/include/QtCore/qvariant.h \
   C:/Qt/6.6.0/mingw_64/include/QtCore/qvarlengtharray.h \
   C:/Qt/6.6.0/mingw_64/include/QtCore/qversiontagging.h \
@@ -595,5 +616,6 @@ C:/Users/Jhinattan\ Rocha/Documents/GitHub/GerenciadorDeTarefas/build-Gerenciado
   C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/wtypes.h \
   C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/wtypesbase.h \
   C:/Users/Jhinattan\ Rocha/Documents/GitHub/GerenciadorDeTarefas/GerenciadorDeTarefas/AbsClasses/Commands.h \
+  C:/Users/Jhinattan\ Rocha/Documents/GitHub/GerenciadorDeTarefas/GerenciadorDeTarefas/windowscore/EnvVaribles/env_vars.h \
   C:/Users/Jhinattan\ Rocha/Documents/GitHub/GerenciadorDeTarefas/GerenciadorDeTarefas/windowscore/mainwinos.h \
   C:/Users/Jhinattan\ Rocha/Documents/GitHub/GerenciadorDeTarefas/GerenciadorDeTarefas/windowscore/pathmanager/pathmanager.h

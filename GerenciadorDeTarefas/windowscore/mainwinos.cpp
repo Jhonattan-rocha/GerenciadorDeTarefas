@@ -76,7 +76,9 @@ void MainWinOS::ls(const std::vector<std::string>& input) {
     this->dir(input);
 }
 
-void MainWinOS::mkdir(const std::vector<std::string>& input) {}
+void MainWinOS::mkdir(const std::vector<std::string>& input) {
+
+}
 
 void MainWinOS::copy(const std::vector<std::string>& input) {}
 
@@ -102,8 +104,23 @@ void MainWinOS::cls(const std::vector<std::string>& input) {
     this->w->setConsoleOutPut("");
 }
 
+void MainWinOS::setEnv(const std::vector<std::string>& input) {
+    std::string key = input[1];
+    std::string value = input[3];
+    en.setVariable(key, value);
+}
+
+void MainWinOS::rmEnv(const std::vector<std::string>& input) {
+    en.removeVariable(input[1]);
+}
+
+void MainWinOS::getEnv(const std::vector<std::string>& input) {
+    std::string value = en.getVariable(input[1]);
+    this->w->setConsoleOutPut(input[1] + ": " + value);
+}
+
 bool MainWinOS::is_command(const std::string& input){
-    std::vector<std::string> cos = {"cls", "clear", "cd", "pwd", "dir", "ls", "mkdir", "copy", "remove", "rm", "mv", "mvdir", "rmdir", "type", "cat"};
+    std::vector<std::string> cos = {"cls", "clear", "setVarEnv", "rmVarEnv", "getVarEnv", "cd", "pwd", "dir", "ls", "mkdir", "copy", "remove", "rm", "mv", "mvdir", "rmdir", "type", "cat"};
     for (const auto& c : cos){
         if(input == c){
             return true;
@@ -118,6 +135,13 @@ void MainWinOS::loadCommands(){
     this->commands["ls"] = &MainWinOS::ls;
     this->commands["cls"] = &MainWinOS::cls;
     this->commands["clear"] = &MainWinOS::clear;
+    this->commands["setVarEnv"] = &MainWinOS::setEnv;
+    this->commands["rmVarEnv"] = &MainWinOS::rmEnv;
+    this->commands["getVarEnv"] = &MainWinOS::getEnv;
+}
+
+void MainWinOS::loadVaribles(){
+    this->en.recoverVars();
 }
 
 void MainWinOS::exec(const std::string& input) {

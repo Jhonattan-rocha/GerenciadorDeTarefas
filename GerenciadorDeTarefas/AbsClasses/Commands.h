@@ -26,6 +26,9 @@ public:
     virtual void cat(const std::vector<std::string>& input) = 0;
     virtual void cls(const std::vector<std::string>& input) = 0;
     virtual void clear(const std::vector<std::string>& input) = 0;
+    virtual void setEnv(const std::vector<std::string>& input) = 0;
+    virtual void rmEnv(const std::vector<std::string>& input) = 0;
+    virtual void getEnv(const std::vector<std::string>& input) = 0;
     virtual void exec(const std::string& input) = 0;
 };
 

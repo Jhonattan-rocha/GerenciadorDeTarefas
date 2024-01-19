@@ -1,23 +1,26 @@
-#include "stringtools.h"
+#ifdef _WIN32
 
+#include "stringtools.h"
+#include <iomanip>
 StringTools::StringTools() {}
 
-std::vector<std::string> StringTools::split(const std::string& str, char delimiter) {
+std::vector<std::string> split(const std::string& str, char delimiter) {
     std::vector<std::string> result;
-    size_t start = 0;
-    size_t end = str.find(delimiter);
+    // std::istringstream iss(str);
+    // std::string token;
 
-    while (end != std::string::npos) {
-        result.push_back(str.substr(start, end - start));
-        start = end + 1;
-        end = str.find(delimiter, start);
-    }
-
-    result.push_back(str.substr(start, end - start));
+    // while (std::getline(iss, token, delimiter)) {
+    //     if (!token.empty()) {
+    //         // Adiciona token à result, considerando aspas
+    //         std::istringstream tokenStream(token);
+    //         std::string quotedToken;
+    //         if (std::getline(tokenStream >> std::quoted(quotedToken), quotedToken))
+    //             result.push_back(quotedToken);
+    //     }
+    // }
 
     return result;
 }
-
 
 std::string StringTools::limit_str(int limit, std::string value){
     std::string result;
@@ -49,3 +52,22 @@ std::string StringTools::strip(const std::string& s) {
     return rstrip(lstrip(s));
 }
 
+std::vector<size_t> StringTools::find(const std::string& search, const std::string& str, const bool all){
+    std::vector<size_t> result;
+
+    size_t pos = str.find(search);
+    result.push_back(pos);
+
+    if(all){
+        while (pos != std::string::npos) {
+            pos = str.find(search, pos + 1);
+            result.push_back(pos);
+        }
+    }
+
+    return result;
+}
+
+
+
+#endif

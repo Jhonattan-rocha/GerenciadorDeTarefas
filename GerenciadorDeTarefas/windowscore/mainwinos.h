@@ -4,6 +4,7 @@
 
 #include <pathmanager/pathmanager.h>
 #include "Commands.h"
+#include "EnvVaribles/env_vars.h"
 
 namespace fs = std::filesystem;
 
@@ -30,12 +31,18 @@ public:
     void cat(const std::vector<std::string>& input) override;
     void clear(const std::vector<std::string>& input) override;
     void cls(const std::vector<std::string>& input) override;
+    void setEnv(const std::vector<std::string>& input) override;
+    void rmEnv(const std::vector<std::string>& input) override;
+    void getEnv(const std::vector<std::string>& input) override;
     void exec(const std::string& input) override;
     bool is_command(const std::string& input);
     void setW(MainWindow* w);
     void loadCommands();
+    void loadVaribles();
+
 private:
     MainWindow* w;
+    env_vars en;
     using CommandFunction = std::function<void(MainWinOS&, const std::vector<std::string>&)>;
     std::unordered_map<std::string, CommandFunction> commands;
 };

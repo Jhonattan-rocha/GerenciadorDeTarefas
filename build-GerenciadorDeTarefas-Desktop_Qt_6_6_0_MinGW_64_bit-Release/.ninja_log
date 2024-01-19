@@ -1,0 +1,17 @@
+# ninja log v5
+11	167	0	C:/Users/Jhinattan Rocha/Documents/GitHub/GerenciadorDeTarefas/build-GerenciadorDeTarefas-Desktop_Qt_6_6_0_MinGW_64_bit-Release/CMakeFiles/cmake.verify_globs	778099afdda4982
+4	3977	7272415675543478	GerenciadorDeTarefas_autogen/timestamp	73cb4a444af03770
+4	3977	7272415675543478	GerenciadorDeTarefas_autogen/mocs_compilation.cpp	73cb4a444af03770
+4	3977	7272415675543478	C:/Users/Jhinattan Rocha/Documents/GitHub/GerenciadorDeTarefas/build-GerenciadorDeTarefas-Desktop_Qt_6_6_0_MinGW_64_bit-Release/GerenciadorDeTarefas_autogen/timestamp	73cb4a444af03770
+4	3977	7272415675543478	C:/Users/Jhinattan Rocha/Documents/GitHub/GerenciadorDeTarefas/build-GerenciadorDeTarefas-Desktop_Qt_6_6_0_MinGW_64_bit-Release/GerenciadorDeTarefas_autogen/mocs_compilation.cpp	73cb4a444af03770
+4084	5634	7272415693381237	CMakeFiles/GerenciadorDeTarefas.dir/windowscore/StringTools/stringtools.cpp.obj	5d179696269a52c0
+4103	6953	7272415706739312	CMakeFiles/GerenciadorDeTarefas.dir/windowscore/FileManager/filemanager.cpp.obj	464f5800724076bf
+4068	8220	7272415719501483	CMakeFiles/GerenciadorDeTarefas.dir/windowscore/FileTree/FileTree.cpp.obj	6fc9406fb1974175
+4113	8374	7272415721108782	CMakeFiles/GerenciadorDeTarefas.dir/windowscore/EnvVaribles/env_vars.cpp.obj	63b14b3427678352
+4028	9120	7272415728530498	CMakeFiles/GerenciadorDeTarefas.dir/windowscore/PathManager/pathmanager.cpp.obj	cdd71b8515c7cb1c
+4008	11072	7272415748090823	CMakeFiles/GerenciadorDeTarefas.dir/main.cpp.obj	6631da7ca07e5399
+3978	11152	7272415748892995	CMakeFiles/GerenciadorDeTarefas.dir/GerenciadorDeTarefas_autogen/mocs_compilation.cpp.obj	45df1f58533ef38a
+3987	11716	7272415754558334	CMakeFiles/GerenciadorDeTarefas.dir/mainwindow.cpp.obj	4457862c3f4a1f29
+3997	11821	7272415755579518	CMakeFiles/GerenciadorDeTarefas.dir/windowscore/mainwinos.cpp.obj	df8a964cd318cd92
+11822	12148	7272415758840067	GerenciadorDeTarefas.exe	1aaac22154168808
+7	49	0	C:/Users/Jhinattan Rocha/Documents/GitHub/GerenciadorDeTarefas/build-GerenciadorDeTarefas-Desktop_Qt_6_6_0_MinGW_64_bit-Release/CMakeFiles/cmake.verify_globs	778099afdda4982

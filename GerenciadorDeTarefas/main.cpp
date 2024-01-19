@@ -19,8 +19,10 @@ int main(int argc, char *argv[])
     }
     MainWindow w;
     MainWinOS mainwin;
+
     mainwin.loadCommands();
     mainwin.setW(&w);
+    mainwin.loadVaribles();
     w.setMainWin(mainwin);
     w.show();
     w.initialize();
