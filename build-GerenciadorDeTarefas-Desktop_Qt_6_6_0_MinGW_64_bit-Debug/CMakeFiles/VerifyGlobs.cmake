@@ -68,8 +68,14 @@ endif()
 file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Users/Jhinattan Rocha/Documents/GitHub/GerenciadorDeTarefas/GerenciadorDeTarefas/*.h")
 set(OLD_GLOB
   "C:/Users/Jhinattan Rocha/Documents/GitHub/GerenciadorDeTarefas/GerenciadorDeTarefas/AbsClasses/Commands.h"
+  "C:/Users/Jhinattan Rocha/Documents/GitHub/GerenciadorDeTarefas/GerenciadorDeTarefas/AbsClasses/thread_header.h"
   "C:/Users/Jhinattan Rocha/Documents/GitHub/GerenciadorDeTarefas/GerenciadorDeTarefas/CustomElements/CustomPlainText.h"
   "C:/Users/Jhinattan Rocha/Documents/GitHub/GerenciadorDeTarefas/GerenciadorDeTarefas/mainwindow.h"
+  "C:/Users/Jhinattan Rocha/Documents/GitHub/GerenciadorDeTarefas/GerenciadorDeTarefas/windowscore/CommandsClasses/cd.h"
+  "C:/Users/Jhinattan Rocha/Documents/GitHub/GerenciadorDeTarefas/GerenciadorDeTarefas/windowscore/CommandsClasses/dir.h"
+  "C:/Users/Jhinattan Rocha/Documents/GitHub/GerenciadorDeTarefas/GerenciadorDeTarefas/windowscore/CommandsClasses/grep.h"
+  "C:/Users/Jhinattan Rocha/Documents/GitHub/GerenciadorDeTarefas/GerenciadorDeTarefas/windowscore/CommandsClasses/ls.h"
+  "C:/Users/Jhinattan Rocha/Documents/GitHub/GerenciadorDeTarefas/GerenciadorDeTarefas/windowscore/CommandsClasses/pwd.h"
   "C:/Users/Jhinattan Rocha/Documents/GitHub/GerenciadorDeTarefas/GerenciadorDeTarefas/windowscore/EnvVaribles/env_vars.h"
   "C:/Users/Jhinattan Rocha/Documents/GitHub/GerenciadorDeTarefas/GerenciadorDeTarefas/windowscore/FileManager/filemanager.h"
   "C:/Users/Jhinattan Rocha/Documents/GitHub/GerenciadorDeTarefas/GerenciadorDeTarefas/windowscore/FileTree/FileTree.h"

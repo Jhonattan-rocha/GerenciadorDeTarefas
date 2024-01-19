@@ -14,6 +14,7 @@ public:
     virtual void cd(const std::vector<std::string>& input) = 0;
     virtual void pwd(const std::vector<std::string>& input) = 0;
     virtual void dir(const std::vector<std::string>& input) = 0;
+    virtual void grep(const std::vector<std::string>& input) = 0;
     virtual void ls(const std::vector<std::string>& input) = 0;
     virtual void mkdir(const std::vector<std::string>& input) = 0;
     virtual void copy(const std::vector<std::string>& input) = 0;

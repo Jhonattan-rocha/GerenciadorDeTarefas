@@ -18,7 +18,7 @@ void env_vars::removeVariable(const std::string& key) {
 }
 
 void env_vars::recoverVars() {
-    QFile file("../../Configs/env.json");
+    QFile file("../GerenciadorDeTarefas/windowscore/EnvVaribles/Configs/env.json");
     if (file.open(QIODevice::ReadOnly)) {
         QByteArray data = file.readAll();
         file.close();
@@ -32,6 +32,9 @@ void env_vars::recoverVars() {
                 variables[chave] = valor;
             }
         }
+    }else {
+        qDebug() << "Erro ao abrir o arquivo:" << file.errorString();
+        qDebug() << "Erro ao abrir o arquivo:" << file.fileName();
     }
 }
 
@@ -47,7 +50,7 @@ void env_vars::recordVars() {
 
     QJsonDocument jsonDocument(jsonObject);
 
-    QFile file("../Configs/env.json");
+    QFile file("../GerenciadorDeTarefas/windowscore/EnvVaribles/Configs/env.json");
 
     try{
         if(file.open(QIODevice::Text | QIODevice::WriteOnly)){

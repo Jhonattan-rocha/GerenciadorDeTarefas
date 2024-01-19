@@ -16,7 +16,6 @@ include_directories("${CMAKE_CURRENT_SOURCE_DIR}/windowscore")
 include_directories("${CMAKE_CURRENT_SOURCE_DIR}/figs")
 include_directories("${CMAKE_CURRENT_SOURCE_DIR}/CustomElements")
 include_directories("${CMAKE_CURRENT_SOURCE_DIR}/AbsClasses")
-include_directories("${CMAKE_CURRENT_SOURCE_DIR}/Configs")
 
 set(TS_FILES GerenciadorDeTarefas_pt_BR.ts)
 
@@ -40,7 +39,12 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         windowscore/FileManager/filemanager.h windowscore/FileManager/filemanager.cpp
         CustomElements/customplaintext.h
         AbsClasses/Commands.h
-        Configs/env.json
+        AbsClasses/thread_header.h
+        windowscore/CommandsClasses/cd.h
+        windowscore/CommandsClasses/pwd.h
+        windowscore/CommandsClasses/dir.h
+        windowscore/CommandsClasses/grep.h
+        windowscore/CommandsClasses/ls.h
     )
 # Define target properties for Android with Qt 6 as:
 #    set_property(TARGET GerenciadorDeTarefas APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR

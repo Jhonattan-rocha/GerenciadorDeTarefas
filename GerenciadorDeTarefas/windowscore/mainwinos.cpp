@@ -3,27 +3,34 @@
 #include "StringTools/stringtools.h"
 #include "../mainwindow.h"
 #include "exception"
+#include <CommandsClasses/cd.h>
 
 MainWinOS::MainWinOS() : Commands::Commands() {}
 
 
+void MainWinOS::grep(const std::vector<std::string>& input){
+
+}
+
 void MainWinOS::cd(const std::vector<std::string>& input) {
-    std::string main_path = this->w->getCurrantPath().toStdString();
-    try{
-        StringTools st;
-        main_path.pop_back();
+    Cd* c = new Cd(input, w);
+    c->init();
+    // std::string main_path = this->w->getCurrantPath().toStdString();
+    // try{
+    //     StringTools st;
+    //     main_path.pop_back();
 
 
-        fs::path new_path = fs::canonical(main_path + input[1]);
+    //     fs::path new_path = fs::canonical(main_path + input[1]);
 
-        if(fs::exists(new_path)){
-            this->w->setCurrantPath(new_path.string() + "\\>");
-        }else{
-            this->w->setConsoleOutPut("Caminho " + new_path.string() + " inválido ou não existe");
-        }
-    }catch(const std::exception& e){
-        this->w->setConsoleOutPut("Caminho " + main_path + input[1] + " inválido ou não existe");
-    }
+    //     if(fs::exists(new_path)){
+    //         this->w->setCurrantPath(new_path.string() + "\\>");
+    //     }else{
+    //         this->w->setConsoleOutPut("Caminho " + new_path.string() + " inválido ou não existe");
+    //     }
+    // }catch(const std::exception& e){
+    //     this->w->setConsoleOutPut("Caminho " + main_path + input[1] + " inválido ou não existe");
+    // }
 }
 
 void MainWinOS::setW(MainWindow* w2){
@@ -120,7 +127,7 @@ void MainWinOS::getEnv(const std::vector<std::string>& input) {
 }
 
 bool MainWinOS::is_command(const std::string& input){
-    std::vector<std::string> cos = {"cls", "clear", "setVarEnv", "rmVarEnv", "getVarEnv", "cd", "pwd", "dir", "ls", "mkdir", "copy", "remove", "rm", "mv", "mvdir", "rmdir", "type", "cat"};
+    std::vector<std::string> cos = {"grep", "cls", "clear", "setVarEnv", "rmVarEnv", "getVarEnv", "cd", "pwd", "dir", "ls", "mkdir", "copy", "remove", "rm", "mv", "mvdir", "rmdir", "type", "cat"};
     for (const auto& c : cos){
         if(input == c){
             return true;
@@ -142,6 +149,10 @@ void MainWinOS::loadCommands(){
 
 void MainWinOS::loadVaribles(){
     this->en.recoverVars();
+}
+
+void MainWinOS::saveVaribles(){
+    this->en.recordVars();
 }
 
 void MainWinOS::exec(const std::string& input) {

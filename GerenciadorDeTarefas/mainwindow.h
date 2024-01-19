@@ -25,7 +25,12 @@ public slots:
     void setMainWin(MainWinOS mainwin);
     void setConsoleOutPut(std::string output);
     std::string getConsoleOutPut();
-public:
+protected:
+
+    void closeEvent(QCloseEvent *event) override {
+        this->mainwin.saveVaribles();
+        QMainWindow::closeEvent(event);
+    }
 private:
     MainWinOS mainwin;
     Ui::MainWindow *ui;

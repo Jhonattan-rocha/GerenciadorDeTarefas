@@ -4,6 +4,8 @@ GerenciadorDeTarefas_autogen/timestamp: \
   C:/Qt/6.6.0/mingw_64/include/QtCore/QJsonDocument \
   C:/Qt/6.6.0/mingw_64/include/QtCore/QJsonObject \
   C:/Qt/6.6.0/mingw_64/include/QtCore/QJsonValue \
+  C:/Qt/6.6.0/mingw_64/include/QtCore/QObject \
+  C:/Qt/6.6.0/mingw_64/include/QtCore/QThread \
   C:/Qt/6.6.0/mingw_64/include/QtCore/q20functional.h \
   C:/Qt/6.6.0/mingw_64/include/QtCore/q20memory.h \
   C:/Qt/6.6.0/mingw_64/include/QtCore/q20type_traits.h \
@@ -38,7 +40,9 @@ GerenciadorDeTarefas_autogen/timestamp: \
   C:/Qt/6.6.0/mingw_64/include/QtCore/qdarwinhelpers.h \
   C:/Qt/6.6.0/mingw_64/include/QtCore/qdatastream.h \
   C:/Qt/6.6.0/mingw_64/include/QtCore/qdatetime.h \
+  C:/Qt/6.6.0/mingw_64/include/QtCore/qdeadlinetimer.h \
   C:/Qt/6.6.0/mingw_64/include/QtCore/qdebug.h \
+  C:/Qt/6.6.0/mingw_64/include/QtCore/qelapsedtimer.h \
   C:/Qt/6.6.0/mingw_64/include/QtCore/qendian.h \
   C:/Qt/6.6.0/mingw_64/include/QtCore/qexceptionhandling.h \
   C:/Qt/6.6.0/mingw_64/include/QtCore/qfile.h \
@@ -116,6 +120,7 @@ GerenciadorDeTarefas_autogen/timestamp: \
   C:/Qt/6.6.0/mingw_64/include/QtCore/qtdeprecationmarkers.h \
   C:/Qt/6.6.0/mingw_64/include/QtCore/qtenvironmentvariables.h \
   C:/Qt/6.6.0/mingw_64/include/QtCore/qtextstream.h \
+  C:/Qt/6.6.0/mingw_64/include/QtCore/qthread.h \
   C:/Qt/6.6.0/mingw_64/include/QtCore/qtmetamacros.h \
   C:/Qt/6.6.0/mingw_64/include/QtCore/qtnoop.h \
   C:/Qt/6.6.0/mingw_64/include/QtCore/qtpreprocessorsupport.h \
@@ -393,6 +398,7 @@ GerenciadorDeTarefas_autogen/timestamp: \
   C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/allocated_ptr.h \
   C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/allocator.h \
   C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/atomic_base.h \
+  C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/atomic_futex.h \
   C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/atomic_lockfree_defines.h \
   C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/basic_ios.h \
   C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/basic_ios.tcc \
@@ -451,6 +457,8 @@ GerenciadorDeTarefas_autogen/timestamp: \
   C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/sstream.tcc \
   C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/std_abs.h \
   C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/std_function.h \
+  C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/std_mutex.h \
+  C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/std_thread.h \
   C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_algo.h \
   C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_algobase.h \
   C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_bvector.h \
@@ -477,6 +485,7 @@ GerenciadorDeTarefas_autogen/timestamp: \
   C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/string_view.tcc \
   C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stringfwd.h \
   C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/uniform_int_dist.h \
+  C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/unique_lock.h \
   C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/unique_ptr.h \
   C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/unordered_map.h \
   C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/uses_allocator.h \
@@ -488,6 +497,7 @@ GerenciadorDeTarefas_autogen/timestamp: \
   C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/clocale \
   C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cmath \
   C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/codecvt \
+  C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/condition_variable \
   C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cstddef \
   C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cstdint \
   C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cstdio \
@@ -509,6 +519,7 @@ GerenciadorDeTarefas_autogen/timestamp: \
   C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/type_traits.h \
   C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/filesystem \
   C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/functional \
+  C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/future \
   C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/initializer_list \
   C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/iomanip \
   C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ios \
@@ -521,6 +532,7 @@ GerenciadorDeTarefas_autogen/timestamp: \
   C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/locale \
   C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/map \
   C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/memory \
+  C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/mutex \
   C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/new \
   C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/numeric \
   C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/optional \
@@ -792,12 +804,18 @@ GerenciadorDeTarefas_autogen/timestamp: \
   C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/wtypes.h \
   C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/wtypesbase.h \
   C:/Users/Jhinattan\ Rocha/Documents/GitHub/GerenciadorDeTarefas/GerenciadorDeTarefas/AbsClasses/Commands.h \
+  C:/Users/Jhinattan\ Rocha/Documents/GitHub/GerenciadorDeTarefas/GerenciadorDeTarefas/AbsClasses/thread_header.h \
   C:/Users/Jhinattan\ Rocha/Documents/GitHub/GerenciadorDeTarefas/GerenciadorDeTarefas/CMakeLists.txt \
   C:/Users/Jhinattan\ Rocha/Documents/GitHub/GerenciadorDeTarefas/GerenciadorDeTarefas/CustomElements/CustomPlainText.h \
   C:/Users/Jhinattan\ Rocha/Documents/GitHub/GerenciadorDeTarefas/GerenciadorDeTarefas/main.cpp \
   C:/Users/Jhinattan\ Rocha/Documents/GitHub/GerenciadorDeTarefas/GerenciadorDeTarefas/mainwindow.cpp \
   C:/Users/Jhinattan\ Rocha/Documents/GitHub/GerenciadorDeTarefas/GerenciadorDeTarefas/mainwindow.h \
   C:/Users/Jhinattan\ Rocha/Documents/GitHub/GerenciadorDeTarefas/GerenciadorDeTarefas/mainwindow.ui \
+  C:/Users/Jhinattan\ Rocha/Documents/GitHub/GerenciadorDeTarefas/GerenciadorDeTarefas/windowscore/CommandsClasses/cd.h \
+  C:/Users/Jhinattan\ Rocha/Documents/GitHub/GerenciadorDeTarefas/GerenciadorDeTarefas/windowscore/CommandsClasses/dir.h \
+  C:/Users/Jhinattan\ Rocha/Documents/GitHub/GerenciadorDeTarefas/GerenciadorDeTarefas/windowscore/CommandsClasses/grep.h \
+  C:/Users/Jhinattan\ Rocha/Documents/GitHub/GerenciadorDeTarefas/GerenciadorDeTarefas/windowscore/CommandsClasses/ls.h \
+  C:/Users/Jhinattan\ Rocha/Documents/GitHub/GerenciadorDeTarefas/GerenciadorDeTarefas/windowscore/CommandsClasses/pwd.h \
   C:/Users/Jhinattan\ Rocha/Documents/GitHub/GerenciadorDeTarefas/GerenciadorDeTarefas/windowscore/EnvVaribles/env_vars.cpp \
   C:/Users/Jhinattan\ Rocha/Documents/GitHub/GerenciadorDeTarefas/GerenciadorDeTarefas/windowscore/EnvVaribles/env_vars.h \
   C:/Users/Jhinattan\ Rocha/Documents/GitHub/GerenciadorDeTarefas/GerenciadorDeTarefas/windowscore/FileManager/filemanager.cpp \

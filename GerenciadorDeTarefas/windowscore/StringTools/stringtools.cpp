@@ -4,20 +4,36 @@
 #include <iomanip>
 StringTools::StringTools() {}
 
-std::vector<std::string> split(const std::string& str, char delimiter) {
+std::vector<std::string> StringTools::split(const std::string& str, char delimiter) {
     std::vector<std::string> result;
-    // std::istringstream iss(str);
-    // std::string token;
+    size_t start = 0;
 
-    // while (std::getline(iss, token, delimiter)) {
-    //     if (!token.empty()) {
-    //         // Adiciona token à result, considerando aspas
-    //         std::istringstream tokenStream(token);
-    //         std::string quotedToken;
-    //         if (std::getline(tokenStream >> std::quoted(quotedToken), quotedToken))
-    //             result.push_back(quotedToken);
-    //     }
-    // }
+    while (start < str.length()) {
+        // Ignora espaços em branco no início
+        while (start < str.length() && isspace(str[start]))
+            ++start;
+
+        if (str[start] == '"') {
+            // Se encontrou uma aspa, encontra a próxima aspa
+            size_t end = str.find('"', start + 1);
+            if (end == std::string::npos) {
+                // Aspa de fechamento não encontrada
+                result.push_back(str.substr(start));
+                break;
+            }
+
+            // Adiciona a substring entre as aspas
+            result.push_back(str.substr(start + 1, end - start - 1));
+            start = end + 1;
+        } else {
+            // Encontra a próxima ocorrência do delimitador
+            size_t end = str.find(delimiter, start);
+            // Adiciona a substring entre o início e o delimitador (ou o final se não encontrar)
+            result.push_back(str.substr(start, end - start));
+            // Atualiza o índice de início para além do delimitador (ou o final)
+            start = (end == std::string::npos) ? end : end + 1;
+        }
+    }
 
     return result;
 }

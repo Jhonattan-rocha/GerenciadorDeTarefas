@@ -19,6 +19,7 @@ public:
     void cd(const std::vector<std::string>& input) override;
     void pwd(const std::vector<std::string>& input) override;
     void dir(const std::vector<std::string>& input) override;
+    void grep(const std::vector<std::string>& input) override;
     void ls(const std::vector<std::string>& input) override;
     void mkdir(const std::vector<std::string>& input) override;
     void copy(const std::vector<std::string>& input) override;
@@ -39,12 +40,15 @@ public:
     void setW(MainWindow* w);
     void loadCommands();
     void loadVaribles();
+    void saveVaribles();
 
 private:
     MainWindow* w;
     env_vars en;
-    using CommandFunction = std::function<void(MainWinOS&, const std::vector<std::string>&)>;
-    std::unordered_map<std::string, CommandFunction> commands;
+    template <typename ReturnType>
+    using CommandFunction = std::function<ReturnType(MainWinOS&, const std::vector<std::string>&)>;
+    std::unordered_map<std::string, CommandFunction<void>> commands;
+    std::unordered_map<std::string, std::string> dados;
 };
 
 #endif // MAINWINOS_H

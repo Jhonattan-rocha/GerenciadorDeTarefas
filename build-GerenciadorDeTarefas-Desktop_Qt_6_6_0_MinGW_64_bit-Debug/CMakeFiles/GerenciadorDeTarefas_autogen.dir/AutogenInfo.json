@@ -268,6 +268,12 @@
 			null
 		],
 		[
+			"C:/Users/Jhinattan Rocha/Documents/GitHub/GerenciadorDeTarefas/GerenciadorDeTarefas/AbsClasses/thread_header.h",
+			"MU",
+			"4T3LKQKHOM/moc_thread_header.cpp",
+			null
+		],
+		[
 			"C:/Users/Jhinattan Rocha/Documents/GitHub/GerenciadorDeTarefas/GerenciadorDeTarefas/CustomElements/CustomPlainText.h",
 			"MU",
 			"MFCMS7J5AH/moc_CustomPlainText.cpp",
@@ -277,6 +283,36 @@
 			"C:/Users/Jhinattan Rocha/Documents/GitHub/GerenciadorDeTarefas/GerenciadorDeTarefas/mainwindow.h",
 			"MU",
 			"EWIEGA46WW/moc_mainwindow.cpp",
+			null
+		],
+		[
+			"C:/Users/Jhinattan Rocha/Documents/GitHub/GerenciadorDeTarefas/GerenciadorDeTarefas/windowscore/CommandsClasses/cd.h",
+			"MU",
+			"ZAU5VBWYSH/moc_cd.cpp",
+			null
+		],
+		[
+			"C:/Users/Jhinattan Rocha/Documents/GitHub/GerenciadorDeTarefas/GerenciadorDeTarefas/windowscore/CommandsClasses/dir.h",
+			"MU",
+			"ZAU5VBWYSH/moc_dir.cpp",
+			null
+		],
+		[
+			"C:/Users/Jhinattan Rocha/Documents/GitHub/GerenciadorDeTarefas/GerenciadorDeTarefas/windowscore/CommandsClasses/grep.h",
+			"MU",
+			"ZAU5VBWYSH/moc_grep.cpp",
+			null
+		],
+		[
+			"C:/Users/Jhinattan Rocha/Documents/GitHub/GerenciadorDeTarefas/GerenciadorDeTarefas/windowscore/CommandsClasses/ls.h",
+			"MU",
+			"ZAU5VBWYSH/moc_ls.cpp",
+			null
+		],
+		[
+			"C:/Users/Jhinattan Rocha/Documents/GitHub/GerenciadorDeTarefas/GerenciadorDeTarefas/windowscore/CommandsClasses/pwd.h",
+			"MU",
+			"ZAU5VBWYSH/moc_pwd.cpp",
 			null
 		],
 		[
@@ -346,7 +382,6 @@
 		"C:/Users/Jhinattan Rocha/Documents/GitHub/GerenciadorDeTarefas/GerenciadorDeTarefas/figs",
 		"C:/Users/Jhinattan Rocha/Documents/GitHub/GerenciadorDeTarefas/GerenciadorDeTarefas/CustomElements",
 		"C:/Users/Jhinattan Rocha/Documents/GitHub/GerenciadorDeTarefas/GerenciadorDeTarefas/AbsClasses",
-		"C:/Users/Jhinattan Rocha/Documents/GitHub/GerenciadorDeTarefas/GerenciadorDeTarefas/Configs",
 		"C:/Qt/6.6.0/mingw_64/include/QtCore",
 		"C:/Qt/6.6.0/mingw_64/include",
 		"C:/Qt/6.6.0/mingw_64/mkspecs/win32-g++",
