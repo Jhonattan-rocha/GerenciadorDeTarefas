@@ -1,0 +1,9 @@
+C:/Users/Jhinattan Rocha/Documents/GitHub/MyConsole/build-MyConsole-Desktop_Qt_6_6_0_MinGW_64_bit-Debug/CMakeFiles/MyConsole.dir
+C:/Users/Jhinattan Rocha/Documents/GitHub/MyConsole/build-MyConsole-Desktop_Qt_6_6_0_MinGW_64_bit-Debug/CMakeFiles/edit_cache.dir
+C:/Users/Jhinattan Rocha/Documents/GitHub/MyConsole/build-MyConsole-Desktop_Qt_6_6_0_MinGW_64_bit-Debug/CMakeFiles/rebuild_cache.dir
+C:/Users/Jhinattan Rocha/Documents/GitHub/MyConsole/build-MyConsole-Desktop_Qt_6_6_0_MinGW_64_bit-Debug/CMakeFiles/list_install_components.dir
+C:/Users/Jhinattan Rocha/Documents/GitHub/MyConsole/build-MyConsole-Desktop_Qt_6_6_0_MinGW_64_bit-Debug/CMakeFiles/install.dir
+C:/Users/Jhinattan Rocha/Documents/GitHub/MyConsole/build-MyConsole-Desktop_Qt_6_6_0_MinGW_64_bit-Debug/CMakeFiles/install/local.dir
+C:/Users/Jhinattan Rocha/Documents/GitHub/MyConsole/build-MyConsole-Desktop_Qt_6_6_0_MinGW_64_bit-Debug/CMakeFiles/install/strip.dir
+C:/Users/Jhinattan Rocha/Documents/GitHub/MyConsole/build-MyConsole-Desktop_Qt_6_6_0_MinGW_64_bit-Debug/CMakeFiles/MyConsole_autogen_timestamp_deps.dir
+C:/Users/Jhinattan Rocha/Documents/GitHub/MyConsole/build-MyConsole-Desktop_Qt_6_6_0_MinGW_64_bit-Debug/CMakeFiles/MyConsole_autogen.dir

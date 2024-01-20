@@ -1,0 +1,23 @@
+# ninja log v5
+5	48	0	C:/Users/Jhinattan Rocha/Documents/GitHub/MyConsole/build-MyConsole-Desktop_Qt_6_6_0_MinGW_64_bit-Debug/CMakeFiles/cmake.verify_globs	46bb4f55734fb0d8
+12	1414	7274151494887839	MyConsole_autogen/timestamp	17a9784a6e2ec44d
+12	1414	7274151494887839	C:/Users/Jhinattan Rocha/Documents/GitHub/MyConsole/build-MyConsole-Desktop_Qt_6_6_0_MinGW_64_bit-Debug/MyConsole_autogen/mocs_compilation.cpp	17a9784a6e2ec44d
+1915	4040	7274125270344301	CMakeFiles/MyConsole.dir/windowscore/FileTree/FileTree.cpp.obj	9bb415db4e7ec247
+12	1414	7274151494887839	MyConsole_autogen/mocs_compilation.cpp	17a9784a6e2ec44d
+12	1414	7274151494887839	C:/Users/Jhinattan Rocha/Documents/GitHub/MyConsole/build-MyConsole-Desktop_Qt_6_6_0_MinGW_64_bit-Debug/MyConsole_autogen/timestamp	17a9784a6e2ec44d
+1890	2697	7274125256908098	CMakeFiles/MyConsole.dir/windowscore/StringTools/stringtools.cpp.obj	c5efe40c79176ff9
+1928	3193	7274125261868264	CMakeFiles/MyConsole.dir/windowscore/FileManager/filemanager.cpp.obj	9d9e7fa42ad1be3f
+1903	4462	7274125274512895	CMakeFiles/MyConsole.dir/windowscore/PathManager/pathmanager.cpp.obj	73f6fb40731eb00a
+1941	4542	7274125275359791	CMakeFiles/MyConsole.dir/windowscore/EnvVaribles/env_vars.cpp.obj	f6c90f9874ad508d
+2283	7959	7274150944151100	CMakeFiles/MyConsole.dir/main.cpp.obj	ff32a597bcd6c97d
+1414	5277	7274151534362042	CMakeFiles/MyConsole.dir/MyConsole_autogen/mocs_compilation.cpp.obj	200763e61164813
+1425	5332	7274151534916023	CMakeFiles/MyConsole.dir/windowscore/mainwinos.cpp.obj	9ee775d9b03575f7
+1420	5297	7274151534573891	CMakeFiles/MyConsole.dir/mainwindow.cpp.obj	73b088b3307baf4
+5333	6147	7274151543020878	MyConsole.exe	ea7a06d30e21b871
+5	48	0	C:/Users/Jhinattan Rocha/Documents/GitHub/MyConsole/build-MyConsole-Desktop_Qt_6_6_0_MinGW_64_bit-Debug/CMakeFiles/cmake.verify_globs	46bb4f55734fb0d8
+12	211	7274155644780816	MyConsole_autogen/timestamp	17a9784a6e2ec44d
+12	211	7274155644780816	MyConsole_autogen/mocs_compilation.cpp	17a9784a6e2ec44d
+12	211	7274155644780816	C:/Users/Jhinattan Rocha/Documents/GitHub/MyConsole/build-MyConsole-Desktop_Qt_6_6_0_MinGW_64_bit-Debug/MyConsole_autogen/timestamp	17a9784a6e2ec44d
+12	211	7274155644780816	C:/Users/Jhinattan Rocha/Documents/GitHub/MyConsole/build-MyConsole-Desktop_Qt_6_6_0_MinGW_64_bit-Debug/MyConsole_autogen/mocs_compilation.cpp	17a9784a6e2ec44d
+233	3939	7274155682078709	CMakeFiles/MyConsole.dir/mainwindow.cpp.obj	73b088b3307baf4
+3940	4766	7274155690281130	MyConsole.exe	ea7a06d30e21b871
